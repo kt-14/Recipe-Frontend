@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+    overflow-x: none;
+    background-color: beige;
+}
+
+.navCont{
+    width: 100vw;
+    background-color: rgb(123, 48, 61);
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+
+.navBar{
+    width: 100%;
+}
+
+#navList{
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style: none;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;  
+    font-size: 1.5rem;
+
+}
+
+#navItems{
+    display: flex;
+    gap: 25px;
+}
+
+.footerBox{
+    width: 100%;
+    background-color: rgb(123, 48, 61);
+    min-height: 20px;
+    text-align: center;
+}
+
+.footerBox p{
+    color: aliceblue;
+    font-size: 1.5rem;
+}
+
+.contentBox{
+    width: 80%;
+    margin: auto;
+    border: 2px solid rgb(70, 61, 61);
+    background-color: blanchedalmond;
+    box-shadow: 0px 0px 40px;
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.leftBox h3{
+    padding-left: 25px;
+}
+
+#ing{
+    padding-left: 50px;
+}
+
+#recipe{
+    padding-left: 50px;
+}
+
+.rightBox img{
+    border-radius: 20px;
+}
+
+#img2{
+    transform: scale(1.2);
+    margin: 20px;
+}
+
+#img3{
+    width: 220px;
+}
+
+#img4{
+    width: 220px;
+}
+
+.rightBox img:hover{
+    cursor: pointer;
+}
